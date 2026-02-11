@@ -1,4 +1,4 @@
-# Pymir
+## Pymir
 A KumirStandart-like thing wrote on python.
 
 You can build obstacles (walls) and move around the "robot" (basically a full green square that paints all of his way).
@@ -8,6 +8,22 @@ For example, the robot does not actually move around the environment, the green 
 
 
 The Pygame library was used, below I will explain how all this stuff works.
+
+## Running
+
+Windows:
+
+Just compile main.py
+
+Linux:
+
+```
+$ cd Pymir
+$ chmod 775 run.sh
+$ ./run.sh
+```
+
+## How things work
 
 # main
 This is a part. which is responsible for the most important actions - initializing pygame, drawing the background, functions that are already written in other parts.
